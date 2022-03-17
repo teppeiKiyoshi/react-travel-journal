@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background: #f55a5a;
+  color: white;
+}
+
+.bx-world {
+  padding: 0 10px;
+}
+
+.main-nav > p {
+  font-size: 16px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+/* ===== CONTENT WRAPPER =====*/
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/*===== MAIN CONTENT STYLING HERE =====*/
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  margin: 20px 30px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 20px 0px rgb(0 0 0 / 10%);
+  border-radius: 7px;
+}
+
+.content-image > img {
+  width: 325px;
+  height: 368px;
+  border-radius: 5px;
+  margin: 15px 20px;
+  box-shadow: 0 0 20px 0px rgb(0 0 0 / 10%);
+}
+
+.content-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px 20px;
+  width: 500px;
+}
+
+.info-header {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.info-header > a {
+  text-decoration: underline;
+  color: #918e9b;
+  cursor: pointer;
+}
+
+.info-body > h1 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.info-body > span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-body > p {
+  font-size: 16px;
+  padding: 20px 40px 0px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+.bx-map {
+  color: #f55a5a;
+}
+
+/* FOOTER STYLING */
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background: #f55a5a;
+  color: white;
+}
